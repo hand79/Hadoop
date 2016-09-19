@@ -1,0 +1,22 @@
+Python 安裝
+環境python 2.7
+	
+# 套件安裝: http://www.lfd.uci.edu/~gohlke/pythonlibs/#pysparse
+- pip(安裝套件的套件):
+1.	https://raw.githubusercontent.com/pypa/pip/master/contrib/get-pip.py
+2.	執行1.下載的內容: python get-pip.py
+3.	套件檢查: pip list
+# IDE選擇:
+1.	pip install jupyter(啟動指令jupyter notebook)
+2.	eclipse 套件 pydev
+# 爬蟲套件:
+- pip install request
+- pip install beautifulsoup4
+- pip install jieba (中文分詞: http://blog.fukuball.com/ru-he-shi-yong-jieba-jie-ba-zhong-wen-fen-ci-cheng-shi/)
+- pip install scikit-learn 
+# 動態網頁: Google Analytics GA
+- https://sofree.cc/ga-demographics-interests/
+- http://www.yesharris.com/category/google-analytics-basic/
+
+# python 疑難雜症參考:
+https://taizilongxu.gitbooks.io/stackoverflow-about-python/content/76/README.html
