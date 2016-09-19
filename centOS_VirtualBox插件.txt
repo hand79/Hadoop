@@ -1,0 +1,5 @@
+好多朋友在安裝virtualbox的增強插件時都會遇到報錯現象，原因就是因為linux的kernel沒安裝。
+
+安裝增強插件有個前提，就是安裝前需要安裝kernel、kernel-headers、kernel-devel，不然會安裝不成功，安裝命令如下：
+
+yum -y install gcc kernel kernel-headers kernel-devel
