@@ -1,0 +1,26 @@
+#!/bin/bash
+#1 獲取參數個數，沒有則退出
+pcount=$#
+if((pcount==0)); then
+echo no args;
+exit;
+fi
+
+#2 獲取文件名稱
+p1=$1
+fname=`basename $p1`
+echo fname=$fname
+
+#3 獲取上級目錄到絕對路徑
+pdir=`cd -P $(dirname $p1); pwd`
+echo pdir=$pdir
+
+#4 獲取當前用戶名稱
+user=`whoami`
+
+#5 loop
+for((host=103; host<105; host++)); do
+        #echo $pdir/$fname $user@hadoop$host:$pdir
+        echo --------------- hadoop$host ----------------
+        rsync -rvl $pdir/$fname $user@hadoop$host:$pdir
+done
