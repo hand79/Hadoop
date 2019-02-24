@@ -5,9 +5,10 @@
 - 對多台rsync 和分布式發送命令腳本(xsync-xcall-script)
 
 #VM完全分布式
-- hadoop102 (namenode、compile Hadoop Lib 已能成功編譯): 上傳中
-- hadoop103 (yarn-ResourceManager):上傳中
-- hadoop104 (secondnamenode):上傳中
+- hadoop102 (namenode、compile Hadoop Lib 已能成功編譯)
+- hadoop103 (yarn-ResourceManager)
+- hadoop104 (secondnamenode)
+- https://mega.nz/#F!k8BWWagS!KJOqtvR3Ar6r4W_5XDbG_g
 
 # python 資料參考 
 - http://oranwind.org/bid-data-mac-os-an-zhuang-jupyter/
